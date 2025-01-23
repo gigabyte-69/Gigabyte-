@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logo img {
+    margin-top: 130px;
+    width: 101px 101px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box2 {
+    background-color: #fff;
+    width: 460px;
+    height: 275px;
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 3px;
+    margin-top: 0px;
+}
+
+#heading {
+    margin: 0px 0px 10px;
+    font-size: 27px;
+    margin-top: 0px;
+    width: 460px 30px;
+    color: #4d4d4d;
+    font-family: Robotoitel;
+
+}
+
+#emailbox {
+    margin-top: 23px;
+
+}
+
+#email {
+    display: block;
+    float: left;
+    font-size: 1.125rem;
+    height: 3.125rem;
+    background: #fff;
+    margin: 0%;
+    padding: 0 1.25rem;
+    position: relative;
+    width: 90%;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 23px;
+}
+
+#password {
+    display: block;
+    float: left;
+    font-size: 1.125rem;
+    height: 3.125rem;
+    background: #fff;
+    margin: 0%;
+    padding: 0 1.25rem;
+    position: relative;
+    width: 90%;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+}
+
+
+input[type="checkbox"] {
+   display: flex;
+    width: 1.25rem;
+
+    height: 1.25rem;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#check1 {
+    display: flex;
+    font-family: robotoital;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.25rem;
+    min-height: 25px;
+    margin-bottom: 10px;
+    position: relative;
+    margin-right: 10px;
+}
+
